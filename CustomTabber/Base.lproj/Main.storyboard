@@ -1,25 +1,139 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZW6-bb-nVf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Medicine-->
+        <scene sceneID="IbP-B7-88i">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Medicine" id="YZz-6A-Qc9" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="YXw-Hw-aID"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ea-v0-9xY"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="HXn-V6-Nbf">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Medical" image="Like Filled-25.png" id="YaI-5S-C7e" customClass="RAMAnimatedTabBarItem" customModule="CustomTabber" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="A24-24-i3h" id="WaQ-fW-1wZ"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uia-KO-xSS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="A24-24-i3h" customClass="RAMBounceAnimation" customModule="CustomTabber" customModuleProvider="target"/>
             </objects>
+            <point key="canvasLocation" x="66" y="-547"/>
+        </scene>
+        <!--Product-->
+        <scene sceneID="U3S-CU-zH5">
+            <objects>
+                <viewController title="Product" id="Pbp-Jo-RbY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kMK-72-Wda"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRc-5I-tBp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mjg-o5-Wg9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Product" image="Cancel Filled-25.png" id="cM0-RR-aia" customClass="RAMAnimatedTabBarItem" customModule="CustomTabber" customModuleProvider="target">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="1" green="0.60634586950000002" blue="0.15559742630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="pzP-JR-A9I" id="nMA-r5-ys6"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jH9-wx-AhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="pzP-JR-A9I" customClass="RAMLeftRotationAnimation" customModule="CustomTabber" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="66" y="-1209"/>
+        </scene>
+        <!--Side Menu View Controller-->
+        <scene sceneID="p20-i7-dwW">
+            <objects>
+                <tableViewController storyboardIdentifier="SideMenuViewController" id="8pP-Ud-9dT" customClass="SideMenuViewController" customModule="CustomTabber" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="SaM-pe-NPF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="gvR-tH-JjI">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gvR-tH-JjI" id="7Hy-gr-LQp">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8pP-Ud-9dT" id="ado-i5-SEi"/>
+                            <outlet property="delegate" destination="8pP-Ud-9dT" id="VNg-wV-Vnm"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="SaM-pe-NPF" id="WyC-gI-A6p"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qw1-bZ-Ykj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-519" y="-2143"/>
+        </scene>
+        <!--Home Tab View Controller-->
+        <scene sceneID="GA3-KJ-3pQ">
+            <objects>
+                <tabBarController storyboardIdentifier="RAMAnimatedTabBarController" id="ZW6-bb-nVf" customClass="HomeTabViewController" customModule="CustomTabber" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="hXw-mX-K9o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Pbp-Jo-RbY" kind="relationship" relationship="viewControllers" id="zrM-UT-mot"/>
+                        <segue destination="YZz-6A-Qc9" kind="relationship" relationship="viewControllers" id="ZUy-xx-h7n"/>
+                        <segue destination="Ltr-8V-2W3" kind="relationship" relationship="viewControllers" id="cAk-uV-Jj4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezr-lt-dnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-754" y="-878"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="JAs-i9-JMu">
+            <objects>
+                <viewController title="Search" id="Ltr-8V-2W3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2RX-d6-65o"/>
+                        <viewControllerLayoutGuide type="bottom" id="ixB-Pm-98z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sFD-Qm-Fyd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="Repeat Filled-25.png" id="u5l-Cn-qDD" customClass="RAMAnimatedTabBarItem" customModule="CustomTabber" customModuleProvider="target">
+                        <connections>
+                            <outlet property="animation" destination="Skc-Nz-OZN" id="rJT-ok-Def"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FeT-s0-NTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Skc-Nz-OZN" customClass="RAMRightRotationAnimation" customModule="CustomTabber" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-730" y="-46"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Cancel Filled-25.png" width="25" height="25"/>
+        <image name="Like Filled-25.png" width="25" height="25"/>
+        <image name="Repeat Filled-25.png" width="25" height="25"/>
+    </resources>
 </document>

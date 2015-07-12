@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354E8D1DC74AE1CBBBEA70F9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3359C0355CDBF48DB76DB2EA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6D4905A91B517D9600C106E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905A81B517D9600C106E1 /* AppDelegate.swift */; };
 		6D4905AC1B517D9600C106E1 /* CustomTabber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905AA1B517D9600C106E1 /* CustomTabber.xcdatamodeld */; };
 		6D4905AE1B517D9600C106E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905AD1B517D9600C106E1 /* ViewController.swift */; };
@@ -14,6 +15,27 @@
 		6D4905B31B517D9600C106E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905B21B517D9600C106E1 /* Images.xcassets */; };
 		6D4905B61B517D9600C106E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905B41B517D9600C106E1 /* LaunchScreen.xib */; };
 		6D4905C21B517D9600C106E1 /* CustomTabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905C11B517D9600C106E1 /* CustomTabberTests.swift */; };
+		6D4905DA1B517E3C00C106E1 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905CF1B517E3C00C106E1 /* RAMBounceAnimation.swift */; };
+		6D4905DB1B517E3C00C106E1 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D11B517E3C00C106E1 /* RAMFrameItemAnimation.swift */; };
+		6D4905DC1B517E3C00C106E1 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D31B517E3C00C106E1 /* RAMFumeAnimation.swift */; };
+		6D4905DD1B517E3C00C106E1 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D51B517E3C00C106E1 /* RAMRotationAnimation.swift */; };
+		6D4905DE1B517E3C00C106E1 /* RAMTransitionItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D71B517E3C00C106E1 /* RAMTransitionItemAnimation.swift */; };
+		6D4905DF1B517E3C00C106E1 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D81B517E3C00C106E1 /* RAMAnimatedTabBarController.swift */; };
+		6D4905E01B517E3C00C106E1 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905D91B517E3C00C106E1 /* RAMItemAnimationProtocol.swift */; };
+		6D4905E21B5180B800C106E1 /* Like Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905E11B5180B800C106E1 /* Like Filled-25.png */; };
+		6D4905E41B5180E200C106E1 /* Cancel Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905E31B5180E200C106E1 /* Cancel Filled-25.png */; };
+		6D4905E61B51844200C106E1 /* Repeat Filled-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905E51B51844200C106E1 /* Repeat Filled-25.png */; };
+		6D4905EB1B5186B500C106E1 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905E91B5186B500C106E1 /* ENSideMenu.swift */; };
+		6D4905EC1B5186B500C106E1 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905EA1B5186B500C106E1 /* ENSideMenuNavigationController.swift */; };
+		6D4905EE1B518E0300C106E1 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905ED1B518E0300C106E1 /* SideMenuViewController.swift */; };
+		6D4905F11B518EBA00C106E1 /* BaseTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905F01B518EBA00C106E1 /* BaseTableCellView.swift */; };
+		6D4905F51B51914A00C106E1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905F31B51914A00C106E1 /* UITableViewExtension.swift */; };
+		6D4905F61B51914A00C106E1 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905F41B51914A00C106E1 /* UIViewControllerExtension.swift */; };
+		6D4905F81B51914F00C106E1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905F71B51914F00C106E1 /* StringExtension.swift */; };
+		6D4905FB1B5191A600C106E1 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4905FA1B5191A600C106E1 /* SlideMenuController.swift */; };
+		6D4905FD1B51A29A00C106E1 /* ic_menu_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905FC1B51A29A00C106E1 /* ic_menu_black_24dp.png */; };
+		6D4905FF1B51A2A400C106E1 /* ic_notifications_black_24dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4905FE1B51A2A400C106E1 /* ic_notifications_black_24dp.png */; };
+		6D4906011B51A3C900C106E1 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4906001B51A3C900C106E1 /* HomeTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3359C0355CDBF48DB76DB2EA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611DFA6BC57C677254569C17 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6D4905A31B517D9600C106E1 /* CustomTabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4905A71B517D9600C106E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4905A81B517D9600C106E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +62,28 @@
 		6D4905BB1B517D9600C106E1 /* CustomTabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4905C01B517D9600C106E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4905C11B517D9600C106E1 /* CustomTabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabberTests.swift; sourceTree = "<group>"; };
+		6D4905CF1B517E3C00C106E1 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		6D4905D11B517E3C00C106E1 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		6D4905D31B517E3C00C106E1 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		6D4905D51B517E3C00C106E1 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		6D4905D71B517E3C00C106E1 /* RAMTransitionItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimation.swift; sourceTree = "<group>"; };
+		6D4905D81B517E3C00C106E1 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		6D4905D91B517E3C00C106E1 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		6D4905E11B5180B800C106E1 /* Like Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like Filled-25.png"; sourceTree = "<group>"; };
+		6D4905E31B5180E200C106E1 /* Cancel Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel Filled-25.png"; sourceTree = "<group>"; };
+		6D4905E51B51844200C106E1 /* Repeat Filled-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Repeat Filled-25.png"; sourceTree = "<group>"; };
+		6D4905E91B5186B500C106E1 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		6D4905EA1B5186B500C106E1 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		6D4905ED1B518E0300C106E1 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		6D4905F01B518EBA00C106E1 /* BaseTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableCellView.swift; sourceTree = "<group>"; };
+		6D4905F31B51914A00C106E1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		6D4905F41B51914A00C106E1 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		6D4905F71B51914F00C106E1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6D4905FA1B5191A600C106E1 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		6D4905FC1B51A29A00C106E1 /* ic_menu_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_black_24dp.png; sourceTree = "<group>"; };
+		6D4905FE1B51A2A400C106E1 /* ic_notifications_black_24dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_notifications_black_24dp.png; sourceTree = "<group>"; };
+		6D4906001B51A3C900C106E1 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		A5203059DEBD76A2BFA9282B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354E8D1DC74AE1CBBBEA70F9 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B120D48FF8510C5BEF34D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				611DFA6BC57C677254569C17 /* Pods.debug.xcconfig */,
+				A5203059DEBD76A2BFA9282B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6D49059A1B517D9600C106E1 = {
 			isa = PBXGroup;
 			children = (
 				6D4905A51B517D9600C106E1 /* CustomTabber */,
 				6D4905BE1B517D9600C106E1 /* CustomTabberTests */,
 				6D4905A41B517D9600C106E1 /* Products */,
+				6B120D48FF8510C5BEF34D33 /* Pods */,
+				89007C63E4B5233837100398 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +137,13 @@
 		6D4905A51B517D9600C106E1 /* CustomTabber */ = {
 			isa = PBXGroup;
 			children = (
+				6D4905FE1B51A2A400C106E1 /* ic_notifications_black_24dp.png */,
+				6D4905FC1B51A29A00C106E1 /* ic_menu_black_24dp.png */,
+				6D4905EF1B518E8B00C106E1 /* View */,
+				6D4905E51B51844200C106E1 /* Repeat Filled-25.png */,
+				6D4905E31B5180E200C106E1 /* Cancel Filled-25.png */,
+				6D4905E11B5180B800C106E1 /* Like Filled-25.png */,
+				6D4905CB1B517E3400C106E1 /* libs */,
 				6D4905A81B517D9600C106E1 /* AppDelegate.swift */,
 				6D4905AD1B517D9600C106E1 /* ViewController.swift */,
 				6D4905AF1B517D9600C106E1 /* Main.storyboard */,
@@ -86,6 +151,8 @@
 				6D4905B41B517D9600C106E1 /* LaunchScreen.xib */,
 				6D4905AA1B517D9600C106E1 /* CustomTabber.xcdatamodeld */,
 				6D4905A61B517D9600C106E1 /* Supporting Files */,
+				6D4905ED1B518E0300C106E1 /* SideMenuViewController.swift */,
+				6D4906001B51A3C900C106E1 /* HomeTabViewController.swift */,
 			);
 			path = CustomTabber;
 			sourceTree = "<group>";
@@ -115,6 +182,122 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6D4905CB1B517E3400C106E1 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905F91B5191A600C106E1 /* Source */,
+				6D4905F21B51913E00C106E1 /* Extesnsions */,
+				6D4905E81B51868700C106E1 /* SlideMenu */,
+				6D4905CC1B517E3C00C106E1 /* RAMAnimatedTabBarController */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		6D4905CC1B517E3C00C106E1 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905CD1B517E3C00C106E1 /* Animations */,
+				6D4905D81B517E3C00C106E1 /* RAMAnimatedTabBarController.swift */,
+				6D4905D91B517E3C00C106E1 /* RAMItemAnimationProtocol.swift */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		6D4905CD1B517E3C00C106E1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905CE1B517E3C00C106E1 /* BounceAnimation */,
+				6D4905D01B517E3C00C106E1 /* FrameAnimation */,
+				6D4905D21B517E3C00C106E1 /* FumeAnimation */,
+				6D4905D41B517E3C00C106E1 /* RotationAnimation */,
+				6D4905D61B517E3C00C106E1 /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		6D4905CE1B517E3C00C106E1 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905CF1B517E3C00C106E1 /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		6D4905D01B517E3C00C106E1 /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905D11B517E3C00C106E1 /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		6D4905D21B517E3C00C106E1 /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905D31B517E3C00C106E1 /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		6D4905D41B517E3C00C106E1 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905D51B517E3C00C106E1 /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		6D4905D61B517E3C00C106E1 /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905D71B517E3C00C106E1 /* RAMTransitionItemAnimation.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		6D4905E81B51868700C106E1 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905E91B5186B500C106E1 /* ENSideMenu.swift */,
+				6D4905EA1B5186B500C106E1 /* ENSideMenuNavigationController.swift */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		6D4905EF1B518E8B00C106E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905F01B518EBA00C106E1 /* BaseTableCellView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6D4905F21B51913E00C106E1 /* Extesnsions */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905F71B51914F00C106E1 /* StringExtension.swift */,
+				6D4905F31B51914A00C106E1 /* UITableViewExtension.swift */,
+				6D4905F41B51914A00C106E1 /* UIViewControllerExtension.swift */,
+			);
+			name = Extesnsions;
+			sourceTree = "<group>";
+		};
+		6D4905F91B5191A600C106E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6D4905FA1B5191A600C106E1 /* SlideMenuController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		89007C63E4B5233837100398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3359C0355CDBF48DB76DB2EA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D4905C51B517D9600C106E1 /* Build configuration list for PBXNativeTarget "CustomTabber" */;
 			buildPhases = (
+				822E3A0E62B9571A1AF72711 /* Check Pods Manifest.lock */,
 				6D49059F1B517D9600C106E1 /* Sources */,
 				6D4905A01B517D9600C106E1 /* Frameworks */,
 				6D4905A11B517D9600C106E1 /* Resources */,
+				40CA073951449E11851005ED /* Embed Pods Frameworks */,
+				145BE368E8C55576FD090E01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +381,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4905FD1B51A29A00C106E1 /* ic_menu_black_24dp.png in Resources */,
+				6D4905E61B51844200C106E1 /* Repeat Filled-25.png in Resources */,
 				6D4905B11B517D9600C106E1 /* Main.storyboard in Resources */,
 				6D4905B61B517D9600C106E1 /* LaunchScreen.xib in Resources */,
+				6D4905FF1B51A2A400C106E1 /* ic_notifications_black_24dp.png in Resources */,
+				6D4905E21B5180B800C106E1 /* Like Filled-25.png in Resources */,
 				6D4905B31B517D9600C106E1 /* Images.xcassets in Resources */,
+				6D4905E41B5180E200C106E1 /* Cancel Filled-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +401,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		145BE368E8C55576FD090E01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40CA073951449E11851005ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822E3A0E62B9571A1AF72711 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D49059F1B517D9600C106E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4905EC1B5186B500C106E1 /* ENSideMenuNavigationController.swift in Sources */,
 				6D4905AE1B517D9600C106E1 /* ViewController.swift in Sources */,
+				6D4905DF1B517E3C00C106E1 /* RAMAnimatedTabBarController.swift in Sources */,
+				6D4905EE1B518E0300C106E1 /* SideMenuViewController.swift in Sources */,
+				6D4905FB1B5191A600C106E1 /* SlideMenuController.swift in Sources */,
+				6D4905F61B51914A00C106E1 /* UIViewControllerExtension.swift in Sources */,
 				6D4905AC1B517D9600C106E1 /* CustomTabber.xcdatamodeld in Sources */,
+				6D4905DE1B517E3C00C106E1 /* RAMTransitionItemAnimation.swift in Sources */,
+				6D4905F51B51914A00C106E1 /* UITableViewExtension.swift in Sources */,
+				6D4905F81B51914F00C106E1 /* StringExtension.swift in Sources */,
+				6D4905F11B518EBA00C106E1 /* BaseTableCellView.swift in Sources */,
+				6D4905EB1B5186B500C106E1 /* ENSideMenu.swift in Sources */,
+				6D4905E01B517E3C00C106E1 /* RAMItemAnimationProtocol.swift in Sources */,
 				6D4905A91B517D9600C106E1 /* AppDelegate.swift in Sources */,
+				6D4905DD1B517E3C00C106E1 /* RAMRotationAnimation.swift in Sources */,
+				6D4905DB1B517E3C00C106E1 /* RAMFrameItemAnimation.swift in Sources */,
+				6D4905DC1B517E3C00C106E1 /* RAMFumeAnimation.swift in Sources */,
+				6D4906011B51A3C900C106E1 /* HomeTabViewController.swift in Sources */,
+				6D4905DA1B517E3C00C106E1 /* RAMBounceAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +599,7 @@
 		};
 		6D4905C61B517D9600C106E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611DFA6BC57C677254569C17 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabber/Info.plist;
@@ -354,6 +610,7 @@
 		};
 		6D4905C71B517D9600C106E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5203059DEBD76A2BFA9282B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomTabber/Info.plist;
@@ -415,6 +672,7 @@
 				6D4905C71B517D9600C106E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D4905C81B517D9600C106E1 /* Build configuration list for PBXNativeTarget "CustomTabberTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +681,7 @@
 				6D4905CA1B517D9600C106E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
